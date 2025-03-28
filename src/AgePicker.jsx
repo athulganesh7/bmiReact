@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
-import './agePicker.css';  // Import custom styles
+import './agepicker.css'
+
+ // Import custom styles
 
 const AgePicker = ({ setInput }) => {
   const [selectedAge, setSelectedAge] = useState(37);
